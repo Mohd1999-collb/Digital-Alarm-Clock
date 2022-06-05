@@ -73,7 +73,7 @@ input{
 
 @media screen and (max-width:756px){ 
     main{
-        min-height: 25vh;
+        min-height: 75vh;
     }
 
     #clock{
