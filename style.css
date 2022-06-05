@@ -71,18 +71,9 @@ input{
 
 /* @media query based layout */
 
-/* @media screen and (min-width:0px) and (min-height:0px) {
-    #delta { 
-        width:512px; 
-        height:384px; 
-        line-height:384px; 
-        font-size:7pt; 
-   }
-} */
-
 @media screen and (max-width:756px){ 
     main{
-        min-height: 50vh;
+        min-height: 25vh;
     }
 
     #clock{
