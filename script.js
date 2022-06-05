@@ -5,8 +5,8 @@ const clearAlarmButton = document.querySelector(".clear-alarm");
 const timeInput = document.querySelector("input");
 
 // URL for playing BEEP audio
-const audioUrl = "https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3";
-const beepAudio = new Audio(audioUrl);
+// const audioUrl = "https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3";
+const beepAudio = new Audio('https://assets.mixkit.co/sfx/preview/mixkit-alarm-digital-clock-beep-989.mp3');
 beepAudio.loop = true;
 
 // Adding event listeners to the buttons to set alarm od clear alarm it
